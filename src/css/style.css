@@ -10,12 +10,12 @@ body {
 	margin: 0;
 }
 
-.Question {
+.question {
 	background-color: #653208;
 	padding: 20px;
 	color: #FFF;
 	text-align: center;
-	font-family: Balsamiq Sans, sans-serif;
+	font-family: "Balsamiq Sans", sans-serif;
 	font-size: 10px;
 	font-style: normal;
 	font-weight: 400;
@@ -27,7 +27,11 @@ body {
 	margin: 0;
 }
 
-.Logo {
+.logo-container {
+	text-align: center;
+}
+
+.logo {
 	color: #FFF;
 	text-align: center;
 	font-family: 'Baloo 2', sans-serif;
@@ -35,23 +39,20 @@ body {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 20px;
+
 	/* 133.333% */
 	display: inline-block;
 	background-color: #3A1914;
 	border-radius: 50px;
 	margin: 0;
-	margin-left: 85px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 5px 15px;
 	margin-top: 10px;
 }
 
 .navigation {
 	color: #3A1914;
 	text-align: center;
-	font-family: Balsamiq Sans, sans-serif;
+	font-family: "Balsamiq Sans", sans-serif;
 	font-size: 15px;
 	font-style: normal;
 	font-weight: 400;
@@ -60,8 +61,18 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 10px;
-	margin-left: 0px;
+	margin-left: 0;
 	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #3A1914;
+}
+
+.link-getthemenu {
+	color: #FFF;
+	text-decoration-line: underline;
 }
 
 .long-line {
@@ -71,7 +82,7 @@ body {
 }
 
 img {
-	max-width: 100%
+	max-width: 100%;
 }
 
 .img-coffee1 {
@@ -96,12 +107,13 @@ p {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 12px;
+
 	/* 120% */
 	margin: 0;
 	margin-bottom: 5px;
 }
 
-.Fortune {
+.fortune {
 	color: #FFF;
 	text-align: center;
 	font-family: 'Baloo 2', sans-serif;
@@ -112,10 +124,7 @@ p {
 	display: inline-block;
 	background-color: #3A1914;
 	border-radius: 50px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 5px 10px;
 	margin: 0;
 }
 
@@ -125,12 +134,6 @@ p {
 	left: 20px;
 }
 
-.arrows {
-	position: absolute;
-	top: 300px;
-	left: 150px;
-}
-
 .type {
 	position: absolute;
 	width: 85px;
@@ -138,7 +141,7 @@ p {
 	left: 220px;
 }
 
-.AboutUs {
+.about-us {
 	color: #3A1914;
 	text-align: center;
 	font-family: 'Baloo 2', sans-serif;
@@ -146,12 +149,12 @@ p {
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
-	margin: 0px;
+	margin: 0;
 	margin-bottom: 15px;
 	margin-top: 15px;
 }
 
-.AboutUs::before {
+.about-us::before {
 	content: "";
 	display: block;
 	width: 10px;
@@ -164,7 +167,7 @@ p {
 	transform: rotate(-45deg);
 }
 
-.AboutUs::after {
+.about-us::after {
 	content: "";
 	display: block;
 	width: 10px;
@@ -189,7 +192,7 @@ p {
 	margin-bottom: 20px;
 }
 
-.CoffeeBeans {
+.coffee-beans {
 	color: #3A1914;
 	text-align: center;
 	font-family: 'Baloo 2', sans-serif;
@@ -197,12 +200,12 @@ p {
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
-	margin: 0px;
+	margin: 0;
 	margin-bottom: 15px;
 	margin-top: 15px;
 }
 
-.CoffeeBeans::before {
+.coffee-beans::before {
 	content: "";
 	display: block;
 	width: 10px;
@@ -215,7 +218,7 @@ p {
 	transform: rotate(-45deg);
 }
 
-.CoffeeBeans::after {
+.coffee-beans::after {
 	content: "";
 	display: block;
 	width: 10px;
@@ -228,10 +231,10 @@ p {
 	transform: rotate(-45deg);
 }
 
-.Arabica {
+.arabica {
 	color: #FFF;
 	text-align: center;
-	font-family: Balsamiq Sans, sans-serif;
+	font-family: "Balsamiq Sans", sans-serif;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 700;
@@ -247,10 +250,10 @@ p {
 	margin-bottom: 20px;
 }
 
-.Robusta {
+.robusta {
 	color: #873E3F;
 	text-align: center;
-	font-family: Balsamiq Sans, sans-serif;
+	font-family: "Balsamiq Sans", sans-serif;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 700;
@@ -266,10 +269,10 @@ p {
 	margin-bottom: 20px;
 }
 
-.Liberica {
+.liberica {
 	color: #873E3F;
 	text-align: center;
-	font-family: Balsamiq Sans, sans-serif;
+	font-family: "Balsamiq Sans", sans-serif;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 700;
@@ -285,7 +288,7 @@ p {
 	margin-bottom: 20px;
 }
 
-.p-A-title {
+.p-a-title {
 	font-size: 20px;
 	font-weight: 700;
 	margin: 0;
@@ -293,7 +296,7 @@ p {
 	padding-right: 20px;
 }
 
-.p-Arabica {
+.p-arabica {
 	font-size: 13px;
 	margin: 0;
 	padding-left: 20px;
@@ -305,7 +308,7 @@ p {
 	margin-bottom: 20px;
 }
 
-.Bestsellers {
+.bestsellers {
 	color: #3A1914;
 	text-align: center;
 	font-family: 'Baloo 2', sans-serif;
@@ -313,12 +316,12 @@ p {
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
-	margin: 0px;
+	margin: 0;
 	margin-bottom: 15px;
 	margin-top: 15px;
 }
 
-.Bestsellers::before {
+.bestsellers::before {
 	content: "";
 	display: block;
 	width: 10px;
@@ -331,7 +334,7 @@ p {
 	transform: rotate(-45deg);
 }
 
-.Bestsellers::after {
+.bestsellers::after {
 	content: "";
 	display: block;
 	width: 10px;
@@ -347,7 +350,7 @@ p {
 .latte-coldbrew-americano {
 	color: #873E3F;
 	text-align: center;
-	font-family: Balsamiq Sans, sans-serif;
+	font-family: "Balsamiq Sans", sans-serif;
 	font-size: 10px;
 	font-style: normal;
 	font-weight: 700;
@@ -359,10 +362,10 @@ p {
 	padding: 20px;
 }
 
-.GetMenu {
+.get-menu {
 	color: #873E3F;
 	text-align: center;
-	font-family: Balsamiq Sans, sans-serif;
+	font-family: "Balsamiq Sans", sans-serif;
 	font-size: 15px;
 	font-style: normal;
 	font-weight: 700;
@@ -376,6 +379,10 @@ p {
 	margin-bottom: 20px;
 }
 
+.link-menu {
+	color: #873E3F;
+}
+
 .bottom-contact {
 	text-align: center;
 	font-family: 'Baloo 2', sans-serif;
@@ -385,6 +392,10 @@ p {
 	line-height: normal;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+.link-fortune {
+	color: #FFF;
 }
 
 .hope {
@@ -397,14 +408,11 @@ p {
 	display: inline-block;
 	background-color: #3A1914;
 	border-radius: 50px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 5px 20px;
 	margin: 0;
 }
 
-.ContactUs {
+.contact-us {
 	color: #3A1914;
 	margin-top: 20px;
 	margin-bottom: 10px;
@@ -422,23 +430,15 @@ p {
 	margin: 0;
 }
 
-@media (width >=320px) {
-	.coldbrew {
-		width: 100px;
-		height: 137px;
-	}
-}
-
 @media (width >=843px) {
-	.Question {
+	.question {
 		font-size: 18px;
 		margin-left: -350px;
 	}
 
-	.Logo {
+	.logo {
 		font-size: 30px;
 		margin: 0;
-		margin-left: 310px;
 		padding-top: 10px;
 		padding-bottom: 10px;
 		margin-top: 20px;
@@ -450,131 +450,411 @@ p {
 		grid-gap: 5px;
 	}
 
+	.guidance {
+		font-size: 20px;
+		margin: 0;
+		margin-bottom: 5px;
+		line-height: normal;
+	}
+
+	.fortune {
+		font-size: 25px;
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-left: 25px;
+	}
+
 	.circles {
 		position: absolute;
 		top: 380px;
 		left: 50px;
 	}
 
-	.arrows {
+
+	.type {
 		position: absolute;
-		top: 560px;
-		left: 400px;
+		width: 270px;
+		top: 360px;
+		left: 550px;
+	}
+
+	.about-us {
+		text-align: left;
+		font-size: 25px;
+		margin: 0;
+		margin-left: 60px;
+	}
+
+	.about-us::before {
+		width: 15px;
+		height: 15px;
+		position: relative;
+		top: 25px;
+		left: -30px;
+	}
+
+	.about-us::after {
+		width: 15px;
+		height: 15px;
+		position: relative;
+		top: -30px;
+		left: 120px;
+	}
+
+	.aboutus-img {
+		flex-direction: row;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 30px;
+		margin-left: 10px;
+		padding: 20px;
+	}
+
+	.coffee-beans {
+		font-size: 25px;
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+
+	.coffee-beans::before {
+		width: 15px;
+		height: 15px;
+		position: relative;
+		top: 25px;
+		left: 310px;
+	}
+
+	.coffee-beans::after {
+		width: 15px;
+		height: 15px;
+		position: relative;
+		top: -30px;
+		left: 518px;
+	}
+
+	.beansname-sub {
+		flex-direction: row;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 5px;
+		padding: 20px;
+		margin-left: 30px;
+	}
+
+	.arabica {
+		font-size: 18px;
+		width: 224px;
+		height: 40.077px;
+		padding: 5px;
+		margin: 0;
+	}
+
+	.robusta {
+		font-size: 18px;
+		width: 224px;
+		height: 40.077px;
+		padding: 5px;
+		margin: 0;
+	}
+
+	.liberica {
+		font-size: 18px;
+		width: 224px;
+		height: 40.077px;
+		padding: 5px;
+		margin: 0;
+	}
+
+	.beansintro-img {
+		flex-direction: row;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 30px;
+		padding: 20px;
+	}
+
+	.beansintro {
+		margin-top: 60px;
+	}
+
+	.p-arabica {
+		font-size: 18px;
+		margin: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.bestsellers {
+		font-size: 25px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.bestsellers::before {
+		width: 15px;
+		height: 15px;
+		position: relative;
+		top: 25px;
+		left: 280px;
+	}
+
+	.bestsellers::after {
+		width: 15px;
+		height: 15px;
+		position: relative;
+		top: -30px;
+		left: 548px;
+	}
+
+	.latte {
+		margin-top: 50px;
+	}
+
+	.americano {
+		margin-top: 50px;
+	}
+
+	.get-menu {
+		margin-left: 305px;
+		margin-bottom: 40px;
+	}
+
+	.bottom-contact {
+		flex-direction: row;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 30px;
+		padding: 20px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.bottom-fortune {
+		font-size: 25px;
+		width: 237px;
+		height: 51.266px;
+		margin-top: 30px;
+		margin-left: 10px;
+	}
+
+}
+
+@media (width >=1280px) {
+	.question {
+		font-size: 20px;
+		margin-left: -700px;
+	}
+
+	.logo {
+		font-size: 36px;
+		padding: 15px 25px;
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+
+	.navigation {
+		font-size: 32px;
 	}
 
 	.type {
 		position: absolute;
-		width: 262px;
-		top: 380px;
-		left: 600px;
-
+		width: 365px;
+		top: 500px;
+		left: 850px;
 	}
 
-	@media (width >=1280px) {
-		.story {
-			margin-left: 60px;
-			margin-right: 40px;
-		}
-
-		.aboutus-img {
-			flex-direction: row;
-			display: grid;
-			grid-template-columns: 2fr 1fr;
-			grid-gap: 30px;
-			margin-left: 10px;
-			padding: 20px;
-		}
-
-		.Arabica {
-			font-size: 25px;
-			width: 313px;
-			height: 56px;
-			padding: 10px;
-			margin: 0;
-			margin-left: 52px;
-			margin-bottom: 20px;
-		}
-
-		.Robusta {
-			font-size: 25px;
-			width: 313px;
-			height: 56px;
-			padding: 10px;
-			margin: 0;
-			margin-left: 52px;
-			margin-bottom: 20px;
-		}
-
-		.Liberica {
-			font-size: 25px;
-			width: 313px;
-			height: 56px;
-			padding: 10px;
-			margin: 0;
-			margin-left: 52px;
-			margin-bottom: 20px;
-		}
-
-		.p-Arabica {
-			padding-top: 50px;
-		}
-
-		.beans-img {
-			flex-direction: row;
-			display: grid;
-			grid-template-columns: 1fr 1fr 1fr;
-			grid-gap: 30px;
-			margin-left: 10px;
-			padding: 20px;
-		}
-
-		.Bestsellers {
-			color: #3A1914;
-			text-align: center;
-			font-family: 'Baloo 2', sans-serif;
-			font-size: 40px;
-			font-style: normal;
-			font-weight: 700;
-			line-height: normal;
-			margin-top: 50px;
-			margin-bottom: 50px;
-			color: #3A1914;
-			text-align: center;
-			font-family: 'Baloo 2', sans-serif;
-			font-size: 20px;
-			font-style: normal;
-			font-weight: 700;
-			line-height: normal;
-			margin: 0px;
-			margin-bottom: 15px;
-			margin-top: 15px;
-		}
-
-		.Bestsellers::before {
-			content: "";
-			display: block;
-			width: 20px;
-			height: 20px;
-			background: #3A1914;
-			position: relative;
-			top: 30px;
-			left: 100px;
-			z-index: -1;
-			transform: rotate(-45deg);
-		}
-
-		.Bestsellers::after {
-			content: "";
-			display: block;
-			width: 20px;
-			height: 20px;
-			background: #3A1914;
-			position: relative;
-			top: -38px;
-			left: 240px;
-			z-index: -1;
-			transform: rotate(-45deg);
-		}
-
-
+	.guidance {
+		font-size: 25px;
 	}
+
+	.fortune {
+		font-size: 35px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.circles {
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		top: 520px;
+		left: 90px;
+	}
+
+	.about-us {
+		text-align: left;
+		font-size: 40px;
+		margin: 0;
+		margin-left: 100px;
+	}
+
+	.about-us::before {
+		width: 20px;
+		height: 20px;
+		position: relative;
+		top: 40px;
+		left: -55px;
+	}
+
+	.about-us::after {
+		width: 20px;
+		height: 20px;
+		position: relative;
+		top: -45px;
+		left: 200px;
+	}
+
+	.story {
+		font-size: 19px;
+		margin-left: 10px;
+		margin-right: 40px;
+	}
+
+	.aboutus-img {
+		flex-direction: row;
+		display: grid;
+		grid-template-columns: 1.5fr 1fr;
+		grid-gap: 30px;
+		margin-left: 10px;
+		padding: 20px;
+	}
+
+	.coffee-beans {
+		font-size: 40px;
+	}
+
+	.coffee-beans::before {
+		width: 20px;
+		height: 20px;
+		position: relative;
+		top: 40px;
+		left: 30px;
+	}
+
+	.coffee-beans::after {
+		width: 20px;
+		height: 20px;
+		position: relative;
+		top: -45px;
+		left: 350px;
+	}
+
+	.beansname-sub {
+		display: block;
+		margin: 0;
+	}
+
+	.arabica {
+		font-size: 25px;
+		width: 313px;
+		height: 56px;
+		padding: 10px;
+		margin-left: 30px;
+		margin-bottom: 20px;
+	}
+
+	.robusta {
+		font-size: 25px;
+		width: 313px;
+		height: 56px;
+		padding: 10px;
+		margin-left: 30px;
+		margin-bottom: 20px;
+	}
+
+	.liberica {
+		font-size: 25px;
+		width: 313px;
+		height: 56px;
+		padding: 10px;
+		margin-left: 30px;
+		margin-bottom: 20px;
+	}
+
+	.p-a-title {
+		font-size: 30px;
+		padding-left: 5px;
+	}
+
+	.p-arabica {
+		font-size: 18px;
+		padding-top: 20px;
+		padding-left: 5px;
+	}
+
+	.beans-img {
+		flex-direction: row;
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		grid-gap: 30px;
+		margin-left: 10px;
+		padding: 20px;
+	}
+
+	.beansintro-img {
+		padding-left: 0;
+	}
+
+	.bestsellers {
+		font-size: 40px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	.bestsellers::before {
+		width: 20px;
+		height: 20px;
+		position: relative;
+		top: 40px;
+		left: 405px;
+	}
+
+	.bestsellers::after {
+		width: 20px;
+		height: 20px;
+		position: relative;
+		top: -45px;
+		left: 850px;
+	}
+
+	.latte-coldbrew-americano {
+		font-size: 20px;
+	}
+
+	.get-menu {
+		font-size: 25px;
+		margin-left: 460px;
+		margin-bottom: 60px;
+	}
+
+	.bottom-contact {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.hope {
+		font-size: 30px;
+	}
+
+	.bottom-fortune {
+		font-size: 30px;
+		width: 282px;
+		height: 61px;
+		margin-top: 40px;
+		margin-left: 65px;
+	}
+
+	.contact-us {
+		font-size: 30px;
+	}
+
+	.info1 {
+		font-size: 20px;
+	}
+
+	.info2 {
+		font-size: 20px;
+	}
+
+
+}

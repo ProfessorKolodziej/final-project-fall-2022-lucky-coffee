@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Update your description here" />
-	<title>Lucky Coffee-question page</title>
+	<title>Lucky Coffee-game</title>
 	<!--
 		This is where you should link your CSS file.
 	-->
@@ -16,16 +16,61 @@
 <body>
 	<!-- This is question page content -->
 
-	<nav class="Home">Home</nav>
-	<nav class="Nav-AboutUs">About Us</nav>
-	<h1 class="Logo">Lucky Coffee</h1>
-	<nav class="Menu">Menu</nav>
-	<nav class="Contact">Contact</nav>
+	<div class="logo-container">
+		<h1 class="logo">Lucky Coffee</h1>
+	</div>
 
-	<img src="images/coffee carousel.png" alt="various coffee circling on the table">
-	<p>Type your today's lucky number</p>
-	<p>Type Number 1-10</p>
-	<h1 class="Fortune">Get Your Fortune</h1>
+	<section class="navigation">
+		<nav>
+			<a href="index.html">Home</a>
+		</nav>
+		<nav>
+			<a href="index.html">About Us</a>
+		</nav>
+		<nav>
+			<a href="menu.html">Menu</a>
+		</nav>
+		<nav>
+			<a href="index.html">Contact</a>
+		</nav>
+	</section>
+
+	<div class="long-line"></div>
+
+	<section class="game" id="game">
+		<div class="game-container">
+			<p class="p-title">Type your today's lucky number</p>
+			<input class="p-type" type="number" id="luckyNumberInput" min="1" max="10" placeholder="Type Number 1-10">
+			<button class="fortune" id="submitButton">Get Your Fortune</button>
+		</div>
+	</section>
+
+	<div class="result-container" id="resultContainer">
+
+		<section class="number-img" id="resultSection">
+
+			<section class="number-p">
+				<h1 class="luckynumber">Lucky number: <span id="displayedNumber">1</span></h1>
+				<h1 class="luckycoffee">Today's Lucky Coffee:</h1>
+				<h2 class="coffeename" id="coffeeName">Matcha Latte</h2>
+				<h1 class="todayfortune">Today's Fortune:</h1>
+				<p class="result-text" id="fortuneText">An exciting opportunity lies ahead of you.</p>
+			</section>
+
+			<img class="result-img" id="resultImg" src="images/matcha latte.png" alt="matcha latte on the table">
+
+		</section>
+
+		<h1 class="tryagain">
+			<a class="link-game" href="question games.html">Try Again</a>
+		</h1>
+
+	</div>
+
+	<!--
+		This is where you should link your JS file.
+	-->
+	<script src="js/game.js"></script>
 
 </body>
 
