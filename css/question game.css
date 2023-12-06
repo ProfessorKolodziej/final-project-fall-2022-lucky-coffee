@@ -112,6 +112,8 @@ p {
 	height: 43px;
 	padding-top: 0;
 	padding-left: 3px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 .result-container {
