@@ -85,11 +85,16 @@ img {
 	max-width: 100%;
 }
 
+
 .img-coffee1 {
-	display: flex;
-	align-items: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 p {
@@ -131,17 +136,18 @@ p {
 .circles {
 	position: absolute;
 	top: 215px;
-	left: 20px;
+	left: 7%;
 }
 
 .type {
 	position: absolute;
 	width: 85px;
 	top: 190px;
-	left: 220px;
+	right: 7%;
 }
 
 .about-us {
+	position: relative;
 	color: #3A1914;
 	text-align: center;
 	font-family: 'Baloo 2', sans-serif;
@@ -160,9 +166,9 @@ p {
 	width: 10px;
 	height: 10px;
 	background: #3A1914;
-	position: relative;
-	top: 20px;
-	left: 90px;
+	position: absolute;
+	top: 32%;
+	left: 30%;
 	z-index: -1;
 	transform: rotate(-45deg);
 }
@@ -173,9 +179,9 @@ p {
 	width: 10px;
 	height: 10px;
 	background: #3A1914;
-	position: relative;
-	top: -23px;
-	left: 220px;
+	position: absolute;
+	top: 32%;
+	right: 30%;
 	z-index: -1;
 	transform: rotate(-45deg);
 }
@@ -193,6 +199,7 @@ p {
 }
 
 .coffee-beans {
+	position: relative;
 	color: #3A1914;
 	text-align: center;
 	font-family: 'Baloo 2', sans-serif;
@@ -211,9 +218,9 @@ p {
 	width: 10px;
 	height: 10px;
 	background: #3A1914;
-	position: relative;
-	top: 19px;
-	left: 75px;
+	position: absolute;
+	top: 32%;
+	left: 25%;
 	z-index: -1;
 	transform: rotate(-45deg);
 }
@@ -224,11 +231,17 @@ p {
 	width: 10px;
 	height: 10px;
 	background: #3A1914;
-	position: relative;
-	top: -23px;
-	left: 235px;
+	position: absolute;
+	top: 32%;
+	right: 25%;
 	z-index: -1;
 	transform: rotate(-45deg);
+}
+
+.beansname-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .arabica {
@@ -309,6 +322,7 @@ p {
 }
 
 .bestsellers {
+	position: relative;
 	color: #3A1914;
 	text-align: center;
 	font-family: 'Baloo 2', sans-serif;
@@ -327,9 +341,9 @@ p {
 	width: 10px;
 	height: 10px;
 	background: #3A1914;
-	position: relative;
-	top: 20px;
-	left: 50px;
+	position: absolute;
+	top: 32%;
+	left: 15%;
 	z-index: -1;
 	transform: rotate(-45deg);
 }
@@ -340,9 +354,9 @@ p {
 	width: 10px;
 	height: 10px;
 	background: #3A1914;
-	position: relative;
-	top: -23px;
-	left: 260px;
+	position: absolute;
+	top: 32%;
+	right: 15%;
 	z-index: -1;
 	transform: rotate(-45deg);
 }
@@ -374,9 +388,14 @@ p {
 	border: 4px solid var(--brown-red, #873E3F);
 	background: #EED0B4;
 	padding: 10px;
-	margin-left: 45px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.menu-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .link-menu {
@@ -465,17 +484,17 @@ p {
 	}
 
 	.circles {
+		width: 80px;
+		height: 80px;
 		position: absolute;
 		top: 380px;
-		left: 50px;
 	}
-
 
 	.type {
 		position: absolute;
 		width: 270px;
 		top: 360px;
-		left: 550px;
+		right: 5%;
 	}
 
 	.about-us {
@@ -519,26 +538,23 @@ p {
 	.coffee-beans::before {
 		width: 15px;
 		height: 15px;
-		position: relative;
-		top: 25px;
-		left: 310px;
+		top: 28%;
+		left: 35%;
 	}
 
 	.coffee-beans::after {
 		width: 15px;
 		height: 15px;
-		position: relative;
-		top: -30px;
-		left: 518px;
+		top: 28%;
+		right: 35%;
 	}
 
 	.beansname-sub {
 		flex-direction: row;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 5px;
+		grid-gap: 40px;
 		padding: 20px;
-		margin-left: 30px;
 	}
 
 	.arabica {
@@ -593,17 +609,15 @@ p {
 	.bestsellers::before {
 		width: 15px;
 		height: 15px;
-		position: relative;
-		top: 25px;
-		left: 280px;
+		top: 28%;
+		left: 30%;
 	}
 
 	.bestsellers::after {
 		width: 15px;
 		height: 15px;
-		position: relative;
-		top: -30px;
-		left: 548px;
+		top: 28%;
+		right: 30%;
 	}
 
 	.latte {
@@ -615,7 +629,6 @@ p {
 	}
 
 	.get-menu {
-		margin-left: 305px;
 		margin-bottom: 40px;
 	}
 
@@ -660,7 +673,6 @@ p {
 		position: absolute;
 		width: 365px;
 		top: 500px;
-		left: 850px;
 	}
 
 	.guidance {
@@ -678,7 +690,6 @@ p {
 		height: 100px;
 		position: absolute;
 		top: 520px;
-		left: 90px;
 	}
 
 	.about-us {
@@ -726,17 +737,15 @@ p {
 	.coffee-beans::before {
 		width: 20px;
 		height: 20px;
-		position: relative;
-		top: 40px;
-		left: 30px;
+		top: 32%;
+		left: 8%;
 	}
 
 	.coffee-beans::after {
 		width: 20px;
 		height: 20px;
-		position: relative;
-		top: -45px;
-		left: 350px;
+		top: 32%;
+		right: 8%;
 	}
 
 	.beansname-sub {
@@ -804,17 +813,15 @@ p {
 	.bestsellers::before {
 		width: 20px;
 		height: 20px;
-		position: relative;
-		top: 40px;
-		left: 405px;
+		top: 32%;
+		left: 30%;
 	}
 
 	.bestsellers::after {
 		width: 20px;
 		height: 20px;
-		position: relative;
-		top: -45px;
-		left: 850px;
+		top: 32%;
+		right: 30%;
 	}
 
 	.latte-coldbrew-americano {
@@ -823,7 +830,6 @@ p {
 
 	.get-menu {
 		font-size: 25px;
-		margin-left: 460px;
 		margin-bottom: 60px;
 	}
 
