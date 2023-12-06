@@ -61,7 +61,7 @@ a {
 
 .game {
 	/* Get the instruction from Chatgpt by asking how to set the img as background img */
-	background-image: url('/Users/sucia/Documents/GitHub/final-project-fall-2022-lucky-coffee/src/images/game-background.png');
+	background-image: url('images/game-background.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
