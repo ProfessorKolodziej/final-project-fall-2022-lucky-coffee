@@ -1,14 +1,17 @@
-# Final Project (Replace with your project name)
+# Final Project - Jiahui Zheng - Lucky Coffee
 
 ## Description
 
-Please add a brief description of your final project here.
+1. Purpose: To help people who love coffee but have difficulty ordering
+2. Interactive game: Users can randomly enter a number within 10 based on their mood that day to get coffee recommendations and the corresponding fortune for the day
+3. Brand storytelling & introduction to coffee beans
 
 ## Project Documentation
 
 - [CM523 Final Project Guidelines &amp; Schedule](https://docs.google.com/document/d/1gvG9_1XYfp5-BVUgCDL9JDaZ3Acm6hHP7lDF3MqXPzY/edit#heading=h.61wsleacz62i)
 - **Final code demo:** [Update this to show your Github Pages URL]. The URL will be `https://professorkolodziej.github.io/final-project-fall-2022-lucky-coffee/`.
 - Add any links to wireframes, mockups, your presentation, etc. here in a list so it is easy for you to find later.
+- Final presentation PowerPoint: https://www.canva.com/design/DAF2P-8hHVw/94XGjvHlMq0FVq_AlmD1Ag/edit?utm_content=DAF2P-8hHVw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## How to Use This Repository
 
